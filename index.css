@@ -48,6 +48,7 @@ body {
 	border-right: 2px solid #ddd;
 	text-transform: uppercase;
 	letter-spacing: 0.04em;
+	color: #eba1a1;
 }
 
 #cover .ceremonies {
@@ -63,6 +64,7 @@ body {
 
 #cover h2 {
 	font-size: 1.2em;
+	color: #eba1a1;
 }
 
 #cover .vow {
