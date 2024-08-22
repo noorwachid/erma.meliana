@@ -185,6 +185,11 @@ a:hover {
 	margin-bottom: 0.7em;
 }
 
+#content .details {
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+
 #closing {
 	text-align: center;
 }
