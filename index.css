@@ -159,6 +159,14 @@ a:hover {
 	font-size: 3em;
 }
 
+#preamble .parents {
+	font-weight: bold;
+}
+#preamble .address {
+	margin-bottom: 1.1em;
+	font-size: 0.9em;
+}
+
 #content {
 	max-width: 600px;
 	width: 100%;
