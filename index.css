@@ -21,6 +21,8 @@ body {
 	align-items: center;
 	justify-content: center;
 	padding: 2em 1em;
+
+	margin-bottom: 4em;
 }
 
 #cover .wedding {
@@ -124,4 +126,45 @@ a {
 
 a:hover {
 	color: #cb8181;
+}
+
+#preamble {
+	max-width: 600px;
+	width: 100%;
+	margin: 0 auto;
+	padding: 1em;
+
+	text-align: center;
+	margin-bottom: 4em;
+}
+
+#preamble h2 {
+	font-family: "Dancing Script", cursive;
+	font-size: 3em;
+}
+
+#content {
+	max-width: 600px;
+	width: 100%;
+	margin: 0 auto;
+	padding: 1em;
+
+	text-align: center;
+	margin-bottom: 2em;
+}
+
+#content p {
+	margin-bottom: 0.7em;
+}
+
+#content .regards {
+	display: flex;
+	flex-direction: row;
+}
+
+#closing {
+	font-family: "Dancing Script", cursive;
+	font-size: 1.4em;
+	text-align: center;
+	margin-bottom: 2em;
 }
