@@ -154,6 +154,10 @@ a:hover {
 	margin-bottom: 4em;
 }
 
+#preamble p {
+	margin-bottom: 0.7em;
+}
+
 #preamble h2 {
 	font-family: "Dancing Script", cursive;
 	font-size: 3em;
