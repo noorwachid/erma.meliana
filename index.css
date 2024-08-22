@@ -5,7 +5,8 @@
 }
 
 body {
-	background-color: #fff;
+	/* background-color: #fff; */
+	background-color: #f2f4f4;
 	color: #333;
 	font-family: "Nunito", sans-serif;
 	font-size: 1em;
@@ -44,7 +45,7 @@ body {
 	font-family: "Dancing Script", cursive;
 	font-size: 4em;
 	width: 100%;
-	background-color: rgba(255, 255, 255, 0.9);
+	background-color: rgba(242, 244, 244, 0.9);
 	/* padding-top: 0.3em; */
 	line-height: 1.7;
 }
