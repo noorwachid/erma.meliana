@@ -186,8 +186,14 @@ a:hover {
 }
 
 #content .details {
+	text-align: left;
 	margin-top: 2em;
 	margin-bottom: 2em;
+}
+
+#content .details td {
+	vertical-align: top;
+	padding: 0 0.2em;
 }
 
 #closing {
@@ -197,7 +203,7 @@ a:hover {
 #closing h4 {
 	font-family: "Dancing Script", cursive;
 	font-size: 1.4em;
-	margin-bottom: 2em;
+	margin-bottom: 4em;
 }
 
 @keyframes move-up-and-down {
