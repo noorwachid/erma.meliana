@@ -116,12 +116,14 @@ body {
 	margin-bottom: 2em;
 }
 
+#cover .address {
+	margin-bottom: 1em;
+}
+
 #cover #scrollDown svg {
 	cursor: pointer;
 	fill: #333;
-	animation: move-up-and-down 1s linear infinite;
-	position: relative;
-	top: 0;
+	animation: 1s ease-in 1s infinite move-up-and-down;
 }
 
 #cover .place {
@@ -138,10 +140,11 @@ body {
 #cover .maps svg {
 	fill: #eba1a1;
 	margin-right: 0.2em;
+	animation: move-up-and-down 1s infinite alternate;
 }
 
 a {
-	text-decoration: underlined;
+	text-decoration: underline;
 	color: #eba1a1;
 }
 
@@ -212,12 +215,8 @@ a:hover {
 }
 
 @keyframes move-up-and-down {
-  0%, 100% {
-    top: 0;
-  }
-  50% {
-    top: 10px;
-  }
+	0% { transform: translateY(2px); }
+	100% { transform: translateY(-3px); }
 }
 
 hr {
