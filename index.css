@@ -122,7 +122,6 @@ body {
 
 #cover #scrollDown svg {
 	cursor: pointer;
-	fill: #333;
 	animation: 1s ease-in 1s infinite move-up-and-down;
 }
 
@@ -138,14 +137,14 @@ body {
 }
 
 #cover .maps svg {
-	fill: #eba1a1;
+	fill: #cb8181;
 	margin-right: 0.2em;
 	animation: move-up-and-down 1s infinite alternate;
 }
 
 a {
 	text-decoration: underline;
-	color: #eba1a1;
+	color: #eb9191;
 }
 
 a:hover {
